@@ -188,7 +188,7 @@ module.exports = (slsOptions, slsService, serverless, log) => {
             return
           }
 
-          const lambdaContext = createLambdaContext(fn)
+          const lambdaContext = new createLambdaContext(fn)
           try {
             handler(event, lambdaContext, lambdaContext.done)
           } catch (error) {
