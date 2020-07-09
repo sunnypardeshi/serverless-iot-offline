@@ -187,7 +187,7 @@ module.exports = (slsOptions, slsService, serverless, log) => {
             log(`Error while loading ${name}: ${err.stack}, ${requestId}`)
             return
           }
-
+// correction
           const lambdaContext = new createLambdaContext(fn)
           try {
             handler(event, lambdaContext, lambdaContext.done)
