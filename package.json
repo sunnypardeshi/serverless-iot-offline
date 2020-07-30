@@ -26,7 +26,7 @@
     "lodash": "^4.17.11",
     "mosca": "^2.8.3",
     "mqtt": "^2.18.8",
-    "mqtt-match": "^2.0.1",
+    "mqtt-match": "^2.0.3",
     "redis": "^2.8.0"
   },
   "peerDependencies": {
